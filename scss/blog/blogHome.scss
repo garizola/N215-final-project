@@ -1,0 +1,52 @@
+.blogWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  max-width: 100%;
+  margin-bottom: 50px;
+
+  .blogText {
+    width: 979px;
+    margin-top: 70px;
+    .blogHeader {
+      font-size: 25px;
+      margin-bottom: 8px;
+    }
+    .blogLine {
+      background-color: black;
+      height: 2px;
+      max-width: 229px;
+      margin-bottom: 36px;
+    }
+  }
+
+  .firstRow {
+    display: flex;
+    margin-bottom: 150px;
+
+    .dates1Blog {
+      text-decoration: none;
+      @include blogPosts;
+    }
+  }
+
+  .secondRow {
+    display: flex;
+    margin-bottom: 150px;
+
+    .dates1Blog {
+      text-decoration: none;
+      @include blogPosts;
+    }
+  }
+
+  .thirdRow {
+    margin-bottom: 150px;
+
+    .dates1Blog {
+      text-decoration: none;
+      @include blogPosts;
+    }
+  }
+}

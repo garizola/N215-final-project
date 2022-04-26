@@ -1,0 +1,19 @@
+.gp1 {
+  @include galleryPages(url(../images/1.png), $yellow);
+}
+
+.gp2 {
+  @include galleryPages(url(../images/2.jpeg), $pink);
+}
+
+.gp3 {
+  @include galleryPages(url(../images/3.jpg), $green);
+}
+
+.gp4 {
+  @include galleryPages(url(../images/4.jpg), $purple);
+}
+
+.gp5 {
+  @include galleryPages(url(../images/5.png), $teal);
+}

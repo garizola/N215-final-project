@@ -1,0 +1,44 @@
+.aboutWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  max-width: 100%;
+
+  .aboutHero {
+    width: 979px;
+    height: 379px;
+    background-image: linear-gradient(rgba($yellow, 0.8), rgba($yellow, 0.8)),
+      url(../images/about.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 85.5px;
+  }
+}
+.historyTextWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  max-width: 100%;
+
+  .historyText {
+    width: 979px;
+    margin-top: -24px;
+    .ourHistory {
+      font-size: 25px;
+      margin-bottom: 8px;
+    }
+    .hisLine {
+      background-color: black;
+      height: 1px;
+      max-width: 229px;
+      margin-bottom: 36px;
+    }
+
+    .aboutPara {
+      font-size: 16px;
+      font-style: italic;
+    }
+  }
+}

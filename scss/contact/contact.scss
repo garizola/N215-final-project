@@ -1,0 +1,65 @@
+.cTextWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  max-width: 100%;
+
+  .cText {
+    width: 979px;
+    margin-top: 50px;
+    .contactHeader {
+      font-size: 25px;
+      margin-bottom: 8px;
+    }
+    .cLine {
+      background-color: black;
+      height: 2px;
+      max-width: 229px;
+      margin-bottom: 36px;
+    }
+  }
+  .contactContent {
+    display: flex;
+    justify-content: space-evenly;
+    .leftInputs {
+      display: flex;
+      flex-direction: column;
+      max-width: 530px;
+      align-items: left;
+      margin-right: 50px;
+      .mediumFormLine {
+        display: flex;
+        align-items: center;
+        background-color: #f5f5f5;
+        width: 529px;
+        height: 60px;
+        margin-bottom: 25px;
+      }
+
+      .LFormLine {
+        display: flex;
+        align-items: center;
+        background-color: #f5f5f5;
+        width: 529px;
+        height: 199px;
+        margin-bottom: 25px;
+      }
+      .submitBtn {
+        height: 60px;
+        width: 167px;
+        background-color: $pink;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        color: white;
+      }
+    }
+
+    .rightInputs {
+      width: 400px;
+      height: 442px;
+      background-image: url(/images/map.jpg);
+    }
+  }
+}

@@ -1,0 +1,51 @@
+.banner {
+  //width: $width;
+  height: 500px;
+  background-image: linear-gradient(rgba($yellow, 0.8), rgba($yellow, 0.8)),
+    url(../images/home-hero.jpg);
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: -80px auto 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  .bigWords {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+
+    .lessImp {
+      font-size: 17px;
+      font-style: italic;
+      color: $pink;
+      margin-bottom: 55px;
+    }
+
+    .lessImpLorem {
+      font-size: 17px;
+      margin-top: -12px;
+      font-style: italic;
+    }
+  }
+
+  .buttonBanner {
+    margin-top: 50px;
+    width: 121px;
+    height: 40px;
+    background-color: $pink;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+  }
+
+  p {
+    font-size: 40px;
+    color: white;
+  }
+}

@@ -1,0 +1,53 @@
+footer {
+  height: 455px;
+  min-width: 100%;
+  background-color: $pink;
+  color: white;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  //justify-content: space-evenly;
+  align-items: center;
+  .logo {
+    margin-top: 36px;
+    margin-bottom: 46px;
+    width: 92px;
+    height: 42px;
+
+    display: flex;
+    padding-top: 24px;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    span {
+      color: white;
+    }
+  }
+  p {
+    max-width: 244px;
+    max-height: 19px;
+    font-size: 10px;
+  }
+
+  .sub {
+    margin-top: 46px;
+    background-image: url(../images/subscribe.png);
+    height: 60px;
+    width: 696px;
+  }
+
+  .footerMedia {
+    margin-top: 30px;
+    margin-bottom: 46px;
+    color: white;
+    justify-content: center;
+    display: flex;
+    height: 32px;
+    width: 100px;
+  }
+
+  .copyright {
+    font-size: 10px;
+    margin-bottom: 36px;
+  }
+}

@@ -1,0 +1,86 @@
+.galTextWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  max-width: 100%;
+
+  .galText {
+    width: 979px;
+    margin-top: 70px;
+    .galHeader {
+      font-size: 25px;
+      margin-bottom: 8px;
+    }
+    .galLine {
+      background-color: black;
+      height: 2px;
+      max-width: 229px;
+      margin-bottom: 36px;
+    }
+  }
+
+  .firstGalImages {
+    width: 979px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+    .yellowImg {
+      background-image: linear-gradient(rgba($yellow, 0.8), rgba($yellow, 0.8)),
+        url(../images/1.png);
+
+      width: 489px;
+      height: 187px;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .pinkImg {
+      background-image: linear-gradient(rgba($pink, 0.8), rgba($pink, 0.8)),
+        url(../images/2.jpeg);
+
+      width: 187px;
+      height: 187px;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .greenImg {
+      background-image: linear-gradient(rgba($green, 0.8), rgba($green, 0.8)),
+        url(../images/3.jpg);
+
+      width: 265px;
+      height: 187px;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  }
+
+  .secondGalImages {
+    width: 979px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+    .purpImg {
+      background-image: linear-gradient(rgba($purple, 0.8), rgba($purple, 0.8)),
+        url(../images/4.jpg);
+
+      width: 603px;
+      height: 306px;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .tealImg {
+      background-image: linear-gradient(rgba($teal, 0.8), rgba($teal, 0.8)),
+        url(../images/5.png);
+
+      width: 355px;
+      height: 306px;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  }
+}

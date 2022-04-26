@@ -1,0 +1,52 @@
+.upcomingEventsPosts {
+  max-width: 100%;
+  height: 320px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  align-items: left;
+  background-color: $purple;
+  .uepContent {
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    h1 {
+      color: white;
+      font-size: 25px;
+    }
+    .line {
+      max-width: 392px;
+      height: 1px;
+      background-color: white;
+      margin-bottom: 30px;
+      margin-top: -10px;
+    }
+    .datePosts {
+      display: flex;
+      .dates1 {
+        @include upcomingEvents;
+      }
+
+      .dates2 {
+        @include upcomingEvents;
+      }
+
+      .dates3 {
+        @include upcomingEvents;
+      }
+
+      .dates4 {
+        @include upcomingEvents;
+      }
+
+      .dates5 {
+        @include upcomingEvents;
+      }
+
+      .dates6 {
+        @include upcomingEvents;
+      }
+    }
+  }
+}
