@@ -1,4 +1,4 @@
-#final-project
+# final-project
 
 - You must create a project named final-project
 - You must take this prototype Download prototypeand convert it into a single page. It is called Eventsy
@@ -10,4 +10,4 @@
 - Must use the MVC model we have discussed.
 - Upload your project to Github and Web4 and add your Web4 link to the README file in Github, and submit your Github link.
 
-https://in-info-web4.informatics.iupui.edu/~garizola/final-project/#home
+[N215-final](https://in-info-web4.informatics.iupui.edu/~garizola/final-project/#home)
