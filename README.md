@@ -1,4 +1,4 @@
-# final-project
+# N215-final-project
 
 - You must create a project named final-project
 - You must take this prototype Download prototypeand convert it into a single page. It is called Eventsy
